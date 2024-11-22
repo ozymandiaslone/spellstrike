@@ -1,7 +1,9 @@
+mod wizard;
+mod lib;
+use lib::*;
+use wizard::*;
 use std::collections::HashMap;
 use macroquad::prelude::*;
-
-
 
 #[derive(Eq, Hash, PartialEq)]
 enum Direction {
@@ -69,6 +71,21 @@ impl Wizard {
   }
   fn update(&mut self) {
     let dt = get_frame_time();
+    if is_key_down(KeyCode::W) {
+      self.pos.y -= 10.;
+    }
+    if is_key_down(KeyCode::A) {
+      self.pos.x -=10.;
+      self.direction = Direction::Left;
+    }
+    if is_key_down(KeyCode::S) {
+      self.pos.y += 10.;
+    }
+    if is_key_down(KeyCode::D) {
+      self.pos.x += 10.;
+      self.direction = Direction::Right;
+    }
+
     if let Some(mut animation_map) = self.animations.get_mut(&self.action) {
       if let Some(mut animation) = animation_map.get_mut(&self.direction) {
         animation.timer += dt;
