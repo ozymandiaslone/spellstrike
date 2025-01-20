@@ -1,0 +1,83 @@
+
+
+=== GOAL: 500 SPELLS ===
+1) Fly
+2) Fire Blast
+3) Fire Ball
+4) Ice Ray
+5) Death Touch
+6) Invisibility
+7) Minor Healing
+8) Major Healing
+9) All-Powerful Healing
+10) Time Slow
+    -- Slow the passage of time for everyone but the caster for a short duration.
+11) Time Stop
+    -- Halt the passage of time for everyone but the caster for a short duration.
+12) Slick Ground
+    -- Slick the ground so that walking on it incurs a chance to fall.
+13) Fog
+    -- Create an area of thick fog.
+14) Darkness
+    -- Create an area of magical darkness.
+15) Thorny Area
+    -- Create a thorny patch on the ground.
+16) Gravity Weaken
+    -- Make the target feel less gravity.
+17) Freeze Person
+    -- Freeze a person. Makes them cold.
+18) Silence
+    -- Silence a target so that they cannot cast spells for a short duration.
+19) Short Teleport
+20) Medium Teleport
+21) Long Teleport
+22) Poison Splat
+23) Acid Splat
+24) Fire SPlat
+25) Ice Chunk
+26) Big Rock
+27) Fire Rain
+28) Acid Rain
+29) Lightning Rain
+30) Leash
+    -- Range: 5 meters.
+    -- The target is leashed to the target and may move freely so long as they are within 5 meters of the caster. 
+    -- If the caster moves more than 5 meters away from the target, the target is dragged and remains in range. 
+31) Stake
+32) Swap Position
+    -- The caster swaps position with the target. 
+33) Rewind Time (1s)
+    -- You reach out and grasp the flow of time itself, dragging reality back 1 second in time.
+34) Rewind Time (2s)
+    -- You reach out and grasp the flow of time itself, dragging reality back 2 seconds in time.
+35) Rewind Time (3s)
+    -- You reach out and grasp the flow of time itself, dragging reality back 3 seconds in time.
+36) Rewind Time (4s)
+    -- You reach out and grasp the flow of time itself, dragging reality back 4 seconds in time.
+37) Rewind Time (5s)
+    -- You reach out and grasp the flow of time itself, dragging reality back 5 seconds in time.
+38) Summon Slime Familiar
+    -- Summons a Slime Familiar
+39) Summon Zombie Familiar (1)
+    -- Summons 1 Zombie Familiar
+40) Summon Zombie Familiar (2)
+    -- Summons 2 Zombie Familiars
+41) Summon Zombie Familiar (3)
+    --- Summons 3 Zombie Familiars
+42) Counterspell
+43) Ring Of Silence
+44) Blinding Light 
+45) Peace
+    -- Range: 30 meter radius around the caster.
+    -- Enforce a magical peace. No conflict may occur within the rang. 
+46) Lesser Speed Increase 
+    -- Increases the caster's speed by 10%.
+47) Greater Speed Increase
+    -- Increase the caster's speed by 20%
+48) Hail Mary
+    -- Very Long Cooldown. 1/100 Chance to kill target instantly
+49) Slow 
+    -- Range: 15 Meters
+    -- The target's movement speed is reduced by 15%
+50) Arcane Longsword
+    -- Summons an arcane longsword for the caster to wield. 
