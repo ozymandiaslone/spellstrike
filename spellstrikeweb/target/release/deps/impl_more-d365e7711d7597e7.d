@@ -1,0 +1,12 @@
+/home/rox/spellstrike/spellstrikeweb/target/release/deps/libimpl_more-d365e7711d7597e7.rmeta: /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/as_ref.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/deref.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/display.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/error.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/from.rs
+
+/home/rox/spellstrike/spellstrikeweb/target/release/deps/libimpl_more-d365e7711d7597e7.rlib: /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/as_ref.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/deref.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/display.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/error.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/from.rs
+
+/home/rox/spellstrike/spellstrikeweb/target/release/deps/impl_more-d365e7711d7597e7.d: /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/as_ref.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/deref.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/display.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/error.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/from.rs
+
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/lib.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/as_ref.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/deref.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/display.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/error.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/impl-more-0.1.8/src/from.rs:

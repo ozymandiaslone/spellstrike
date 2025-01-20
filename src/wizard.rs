@@ -1,4 +1,5 @@
 use crate::utils::*;
+use crate::game::*;
 use macroquad::prelude::*;
 use std::collections::HashMap;
 
@@ -49,7 +50,7 @@ impl DynamicEntity for Wizard{
     }
   }
 
-  fn update(&mut self) {
+  fn update(&mut self) -> Option<Game> {
     let dt = get_frame_time();
     if is_key_down(KeyCode::W) {
       self.pos.y -= 10.;
@@ -76,6 +77,7 @@ impl DynamicEntity for Wizard{
         }
       }
     }
+    None
   }
 }
 

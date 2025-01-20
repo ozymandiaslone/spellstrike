@@ -1,0 +1,8 @@
+/home/rox/spellstrike/spellstrikeweb/target/debug/deps/libunicase-3e086c10dc37ba57.rmeta: /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs
+
+/home/rox/spellstrike/spellstrikeweb/target/debug/deps/unicase-3e086c10dc37ba57.d: /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs /home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs
+
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs:
+/home/rox/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs:

@@ -1,11 +1,17 @@
 use macroquad::prelude::*;
 use crate::wizard::*;
+use crate::game::*;
 #[derive(Eq, Hash, PartialEq)]
 pub enum Direction {
   Up,
   Down,
   Left,
   Right
+}
+
+pub struct Complex {
+  real: DBig,
+  imaginary: Dbig,
 }
 
 pub struct Animation {
@@ -18,24 +24,36 @@ pub struct Animation {
 }
 
 pub trait DynamicEntity {
-  fn update(&mut self);
+  fn update(&mut self) -> Option<Game>;
   fn draw(&self);
 }
 
 pub async fn setup_dynamic_lobby_entities() -> Vec<Box<dyn DynamicEntity>> {
 
   let mut entities: Vec<Box<dyn DynamicEntity>> = Vec::new();
+
   // TODO create and place the JoinLobbyButton()
-  let mut join_button = JoinButton::new(load_texture("assets/join-button.png").await.unwrap(), vec2(0., 0.,), vec2(250., 250.));
+  let mut join_button = JoinButton::new(
+    load_texture("assets/join-button.png").await.unwrap(),
+    vec2(0., 0.,),
+    vec2(250., 250.)
+    );
+
   // TODO create and place the CreateLobbyButton()
+  let mut create_lobby_button = CreateLobbyButton::new(
+    load_texture("assets/join-button.png").await.unwrap(),
+    vec2(250., 0.,),
+    vec2(250., 250.),
+  );
   // TODO create and place the SettingsButton() 
-
-/*
-  let mut wizard = setup_default_wizard().await;
-  entities.push(Box::new(wizard));
-
-*/
+  let mut settings_button = SettingsButton::new(
+    load_texture("assets/join-button.png").await.unwrap(),
+    vec2(500., 0.),
+    vec2(250., 250.)
+  );
   entities.push(Box::new(join_button));
+  entities.push(Box::new(create_lobby_button));
+  entities.push(Box::new(settings_button));
   entities
 }
 
@@ -65,6 +83,7 @@ pub struct CreateLobbyButton {
   pos: Vec2,
   click_box: Vec2,
   scale: f32,
+  hovered: bool,
 }
 impl CreateLobbyButton {
   pub fn new(texture: Texture2D, pos: Vec2, click_box: Vec2) -> CreateLobbyButton {
@@ -73,7 +92,8 @@ impl CreateLobbyButton {
       texture,
       pos,
       click_box,
-      scale
+      scale,
+      hovered: false,
     }
   }
 }
@@ -82,6 +102,7 @@ pub struct SettingsButton {
   pos: Vec2,
   click_box: Vec2,
   scale: f32,
+  hovered: bool,
 }
 impl SettingsButton {
   pub fn new(texture: Texture2D, pos: Vec2, click_box: Vec2) -> SettingsButton {
@@ -90,12 +111,13 @@ impl SettingsButton {
       texture,
       pos,
       click_box,
-      scale
+      scale,
+      hovered: false
     }
   }
 }
 impl DynamicEntity for JoinButton{
-  fn update(&mut self) {
+  fn update(&mut self) -> Option<Game> {
     self.hovered = false;
     let (x, y) = mouse_position();
     if x >= self.pos.x && x <= (self.pos.x + self.click_box.x) && y >= self.pos.y && y <= (self.pos.y + self.click_box.y) {
@@ -103,8 +125,14 @@ impl DynamicEntity for JoinButton{
       self.hovered = true;
       if is_mouse_button_down(MouseButton::Left) {
         // do whatever you wanna do upon a click 
+        return Some(Game {
+          dynamic_lobby_entities: Vec::new(),
+          dynamic_game_entities: Vec::new(),
+          state: GameState::Playing
+        })
       }
     }
+    None
   }
   fn draw(&self) {
   //TODO draw the button  
@@ -129,31 +157,71 @@ impl DynamicEntity for JoinButton{
   }
 }
 impl DynamicEntity for CreateLobbyButton{
-  fn update(&mut self) {
+  fn update(&mut self) -> Option<Game> {
+    self.hovered = false;
     let (x, y) = mouse_position();
     if x >= self.pos.x && x <= (self.pos.x + self.click_box.x) && y >= self.pos.y && y <= (self.pos.y + self.click_box.y) {
-      // ok the mouse is within the click box
+      self.hovered = true;
       if is_mouse_button_down(MouseButton::Left) {
         // do whatever you wanna do upon a click 
       }
     }
+    None
   }
   fn draw(&self) {
-  //TODO draw the button  
+    //TODO draw the button  
+    let mut offset = 0.;
+    if self.hovered {
+      offset = 250.;
+    }
+    draw_texture_ex(
+      &self.texture,
+      self.pos.x,
+      self.pos.y,
+      WHITE,
+      DrawTextureParams {
+      source: Some(Rect::new(
+                  0. + offset,
+                  0.,
+                  250.,
+                  250.,
+              )),
+        ..Default::default()
+    })
   }
 }
 impl DynamicEntity for SettingsButton{
-  fn update(&mut self) {
+  fn update(&mut self) -> Option<Game> {
+    self.hovered = false;
     let (x, y) = mouse_position();
     if x >= self.pos.x && x <= (self.pos.x + self.click_box.x) && y >= self.pos.y && y <= (self.pos.y + self.click_box.y) {
-      // ok the mouse is within the click box
+      self.hovered = true;
       if is_mouse_button_down(MouseButton::Left) {
         // do whatever you wanna do upon a click 
       }
     }
+    None
   }
   fn draw(&self) {
-  //TODO draw the button  
+    //TODO draw the button  
+    let mut offset = 0.;
+    if self.hovered {
+      offset = 250.;
+    }
+    draw_texture_ex(
+      &self.texture,
+      self.pos.x,
+      self.pos.y,
+      WHITE,
+      DrawTextureParams {
+      source: Some(Rect::new(
+                  0. + offset,
+                  0.,
+                  250.,
+                  250.,
+              )),
+        ..Default::default()
+    })
   }
 }
 

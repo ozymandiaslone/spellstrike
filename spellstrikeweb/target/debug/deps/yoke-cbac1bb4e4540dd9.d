@@ -1,0 +1,14 @@
+/home/rox/spellstrike/spellstrikeweb/target/debug/deps/libyoke-cbac1bb4e4540dd9.rmeta: /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/cartable_ptr.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/either.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/erased.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/kinda_sorta_dangling.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/macro_impls.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/trait_hack.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/yoke.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/yokeable.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/zero_from.rs
+
+/home/rox/spellstrike/spellstrikeweb/target/debug/deps/yoke-cbac1bb4e4540dd9.d: /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/lib.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/cartable_ptr.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/either.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/erased.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/kinda_sorta_dangling.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/macro_impls.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/trait_hack.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/yoke.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/yokeable.rs /home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/zero_from.rs
+
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/lib.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/cartable_ptr.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/either.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/erased.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/kinda_sorta_dangling.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/macro_impls.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/trait_hack.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/yoke.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/yokeable.rs:
+/home/rox/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.7.5/src/zero_from.rs:
